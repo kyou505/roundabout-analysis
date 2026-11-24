@@ -1,0 +1,24 @@
+# 数据目录只提交下载说明和版本校验；原始数据及生成结果留在本地。
+/data/*
+!/data/README.md
+!/data/SHA256SUMS
+
+# 本机环境
+/.venv/
+__pycache__/
+*.py[cod]
+*.nbc
+*.nbi
+.DS_Store
+.env
+.env.*
+*.log
+/.cache/
+/migration_manifest.json
+/migration_verification.json
+
+# 历史实验目录整体留在本地；目录外的分析代码正常纳入版本管理。
+/experiments/
+
+# 忽略子目录中的虚拟环境。
+**/.venv/

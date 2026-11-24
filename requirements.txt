@@ -1,0 +1,12 @@
+# 当前实验的直接依赖版本；Python 3.10
+numpy==2.2.6
+pandas==2.3.3
+scipy==1.15.3
+scikit-learn==1.7.2
+matplotlib==3.10.9
+numba==0.61.2
+llvmlite==0.44.0
+threadpoolctl==3.6.0
+pillow==12.2.0
+fonttools==4.62.1
+
